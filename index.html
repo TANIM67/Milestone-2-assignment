@@ -10,16 +10,17 @@
 <body class="max-w-[1600px] m-auto bg-[#1A0B2E]">
     <header class="bg-[#4c2381] max-w-[1600px] m-auto">
         <nav class = "bg-[#1A0B2E] h-[76px] max-w-[1600px] m-auto">
-            <div class="nav-container flex justify-around items-center p-4 m-auto">
+            <div class="flex justify-between sm:justify-around items-center p-4 m-auto">
                 <h3 class="text-4xl font-extrabold text-white">
                 Tech<span class="bg-linear-to-b from-[#b249f8] to-[#ff52af] bg-clip-text text-transparent">Wave</span>
                 </h3>
-                <ul class="text-white text-[16px] flex gap-8">
+                <ul class="text-white text-[16px] hidden sm:flex gap-8">
                     <li><a href="">About</a></li>
                     <li><a href="">Episodes</a></li>
                     <li><a href="">Host</a></li>
                 </ul>
-                <button class="w-[135px] p-2 text-white font-bold border-2 rounded-3xl cursor-pointer bg-linear-to-r from-yellow-30 to-pink-500 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg active:scale-95"> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+                <button class="hidden sm:block w-[135px] p-2 text-white font-bold border-2 rounded-3xl cursor-pointer bg-linear-to-r from-yellow-30 to-pink-500 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg active:scale-95"> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+                <img class="sm:hidden" src="assets/hamburger-menu.png" alt="">
             </div>
         </nav>
 
